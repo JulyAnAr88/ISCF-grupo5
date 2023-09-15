@@ -1,5 +1,5 @@
    <p align="left">
-   <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
+   <img src="/Banner-principal-2.jpg">
    </p>
 
 # Repositorio Grupo 5
