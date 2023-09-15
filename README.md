@@ -63,12 +63,12 @@ Da un ejemplo
 
 _Agrega notas adicionales sobre como hacer deploy_
 
-## Construido con 🛠️
+## Herramientas utilizadas 🛠️
 
 _Menciona las herramientas que utilizaste para crear tu proyecto_
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
+* [SimulIDE](https://www.simulide.com/p/home.html) -  Real time electronic circuit simulator.
+* [draw.io](https://app.diagrams.net/) - Software de dibujo gráfico multiplataforma
 * [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
 
 ## Wiki 📖
