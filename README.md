@@ -49,7 +49,7 @@ Diagrama de flujo
 preview
 ```
 
-## Documentación 📋 
+#### Documentación 📋 
 
 * Robot-N6-Max: 
 Documento oficial con últimas características y especificaciones técnicas.
@@ -57,7 +57,7 @@ Documento oficial con últimas características y especificaciones técnicas.
 * Armá y programá tu robot: 
 Tutorial para el uso de los productos de robótica educativa de Robotgroup desarrollado por el Ministerio de Educación de la Nación para los programas _Inclusión digital educativa_, _Conectar igualdad_ y _Primaria digital_
 
-### Gemelo digital 👯
+#### Gemelo digital 👯
 
 Desarrollo del gemelo digital
 
@@ -65,7 +65,7 @@ Desarrollo del gemelo digital
 preview
 ```
 
-## Herramientas utilizadas 🛠️
+#### Herramientas utilizadas 🛠️
 
 * [SimulIDE](https://www.simulide.com/p/home.html) -  Real time electronic circuit simulator.
 * [draw.io](https://app.diagrams.net/) - Software de dibujo gráfico multiplataforma
