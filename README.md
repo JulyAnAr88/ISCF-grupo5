@@ -51,10 +51,10 @@ preview
 
 #### Documentación 📋 
 
-* Robot-N6-Max: 
+* [Robot-N6-Max](/N6-Max/Documentación/Robot-N6-Max.pdf): 
 Documento oficial con últimas características y especificaciones técnicas.
 
-* Armá y programá tu robot: 
+* [Armá y programá tu robot](/N6-Max/Documentación/Armá%20y%20programá%20tu%20robot.pdf): 
 Tutorial para el uso de los productos de robótica educativa de Robotgroup desarrollado por el Ministerio de Educación de la Nación para los programas _Inclusión digital educativa_, _Conectar igualdad_ y _Primaria digital_
 
 #### Gemelo digital 👯
