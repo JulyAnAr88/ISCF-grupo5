@@ -31,12 +31,9 @@ El Múltiplo N6 es un robot desarrollado y lanzado al mercado por la empresa de 
 El N6-MAX se encuentra mejorado en distintas partes tanto mecánicas como electrónicas, por ejemplo nuevos motores de 12v a 24v con una caja planetária de reducción de 256 rpm, chasis mejorado y de forma rústica con placas de acrílicos con vários orifícios para la fácil adaptación de nuevos sensores, cuenta con una nueva placa adaptadora "shield de expansión de sensores" donde se pueden
 agregar mas sensores que trabajan con operación binária como led, cny70, bumper, ldr, etc.
 
-
-```
    <p align="center">
    <img src="/n6max6_500x0.jpg">
    </p>
-```
 
 #### Diagramas 📈
 
