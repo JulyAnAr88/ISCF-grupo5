@@ -1,8 +1,8 @@
-   <p align="left">
+   <p align="center">
    <img src="/Banner-principal-2.jpg">
    </p>
 
-# Repositorio Grupo 5
+# Repositorio Grupo 5 🧩
 
 El siguiente repositorio fue creado a los fines de organizar y disponer de manera más accesible todo el material generado por el grupo en cuestión para la materia _Introducción a los Sistemas Ciber Físicos_ de la carrera _Ingeniería en Inteligencia Artificial_ de la **FICH - UNL**
 
@@ -20,74 +20,58 @@ A continuación, detallamos el contenido de cada proyecto, los cuales se irán a
     │   │   ├── Robot-N6-Max.pdf
     │   │   └── Armá y programá tu robot.pdf
     │   └── Gemelo digital
+    │       └──
 	├── Banner-principal-2.jpg
 	├── LICENSE
 	└── README.md
 
-
 ### 1. N6-Max 🚙
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+El Múltiplo N6 es un robot desarrollado y lanzado al mercado por la empresa de robótica educativa RobotGroup. Es un robot muy fácil de utilizar y que, a su vez cuenta con una gran capacidad de expansión. Esto lo convierte en ideal, tanto para dar los primeros pasos en robótica, como para ser utilizado como plataforma educativa y de investigación.
+El N6-MAX se encuentra mejorado en distintas partes tanto mecánicas como electrónicas, por ejemplo nuevos motores de 12v a 24v con una caja planetária de reducción de 256 rpm, chasis mejorado y de forma rústica con placas de acrílicos con vários orifícios para la fácil adaptación de nuevos sensores, cuenta con una nueva placa adaptadora "shield de expansión de sensores" donde se pueden
+agregar mas sensores que trabajan con operación binária como led, cny70, bumper, ldr, etc.
+
 
 ```
-Da un ejemplo
+   <p align="center">
+   <img src="/n6max6_500x0.jpg">
+   </p>
 ```
 
 #### Diagramas 📈
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
-
-_Dí cómo será ese paso_
+Diagrama de bloques 
 
 ```
-Da un ejemplo
+preview
 ```
 
-_Y repite_
+Diagrama de flujo
 
 ```
-hasta finalizar
+preview
 ```
 
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
+## Documentación 📋 
 
-## Documentación 📋 Ejecutando las pruebas ⚙️
+* Robot-N6-Max: 
+Documento oficial con últimas características y especificaciones técnicas.
 
-_Explica como ejecutar las pruebas automatizadas para este sistema_
+* Armá y programá tu robot: 
+Tutorial para el uso de los productos de robótica educativa de Robotgroup desarrollado por el Ministerio de Educación de la Nación para los programas _Inclusión digital educativa_, _Conectar igualdad_ y _Primaria digital_
 
 ### Gemelo digital 👯
 
-_Explica que verifican estas pruebas y por qué_
+Desarrollo del gemelo digital
 
 ```
-Da un ejemplo
+preview
 ```
-
-### Y las pruebas de estilo de codificación ⌨️
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
-## Despliegue 📦
-
-_Agrega notas adicionales sobre como hacer deploy_
 
 ## Herramientas utilizadas 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
-
 * [SimulIDE](https://www.simulide.com/p/home.html) -  Real time electronic circuit simulator.
 * [draw.io](https://app.diagrams.net/) - Software de dibujo gráfico multiplataforma
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
-
-## Wiki 📖
-
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
-
-## Versionado 📌
 
 ## Autores ✒️
 
@@ -99,8 +83,8 @@ Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](ht
 * **Sommer, Elias** - [Sommer, Elias](#algún-link)
 * **Utrera, Francisco** - [Utrera, Francisco](#algún-link)
 
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/JulyAnAr88/ISCF-grupo5/contributors) quíenes han participado en este proyecto. 
+También puedes mirar la lista de todos los [contribuyentes](https://github.com/JulyAnAr88/ISCF-grupo5/contributors) quienes han participado en este proyecto. 
 
 ## Licencia 📄
 
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+Este proyecto está bajo Licencia Creative Commons licensed - mira el archivo [Creative Commons licensed](/LICENSE) para detalles
