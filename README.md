@@ -83,5 +83,5 @@ preview
 También puedes mirar la lista de todos los [contribuyentes](https://github.com/JulyAnAr88/ISCF-grupo5/contributors) quienes han participado en este proyecto. 
 
 ## Licencia 📄
-Mod
+
 Este proyecto está bajo Licencia Creative Commons licensed - mira el archivo [Creative Commons licensed](/LICENSE) para detalles
