@@ -78,7 +78,7 @@ preview
 * **Rodriguez Oliva, Franco Nicolas** - [Rodriguez Oliva, Franco Nicolas](#algún-link)
 * **Salera, Denise Ana** - [Salera, Denise Ana](#algún-link)
 * **Sommer, Elias** - [Sommer, Elias](#algún-link)
-* **Utrera, Francisco** - [Utrera, Francisco](#algún-link)
+* **Utrera, Francisco** - [Utrera, Francisco](https://github.com/fran2203)
 
 También puedes mirar la lista de todos los [contribuyentes](https://github.com/JulyAnAr88/ISCF-grupo5/contributors) quienes han participado en este proyecto. 
 
