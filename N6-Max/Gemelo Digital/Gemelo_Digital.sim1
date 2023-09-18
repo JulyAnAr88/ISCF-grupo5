@@ -1,0 +1,17 @@
+<circuit version="1.0.0-SR0" rev="1320" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Subcircuit" CircId="Uno-16" mainComp="false" Show_id="true" Show_Val="false" Pos="-680,-260" rotation="0" hflip="1" vflip="1" label="Uno-16" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
+<mainCompProps itemtype="MCU" CircId="16_mega328-109" mainComp="true" Show_id="false" Show_Val="false" Pos="20,20" rotation="0" hflip="1" vflip="1" label="16_mega328-109" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="16 MHz" Auto_Load="false" Rst_enabled="true" Ext_Osc="true" Wdt_enabled="false" />
+</item>
+
+<item itemtype="SR04" CircId="SR04-17" mainComp="false" Show_id="false" Show_Val="false" Pos="-800,-224" rotation="0" hflip="1" vflip="1" label="SR04-17" idLabPos="-16,-48" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Voltage Source" CircId="Voltage Source-20" mainComp="false" ShowProp="MaxValue" Show_id="false" Show_Val="true" Pos="-1000,-228" rotation="0" hflip="1" vflip="1" label="Voltage Source-20" idLabPos="-32,-48" labelrot="0" valLabPos="-8,30" valLabRot="0" Running="true" Value_Volt="0 V" MaxValue="5 V" />
+
+<item itemtype="Connector" uid="connector-18" startpinid="SR04-17-outpin" endpinid="Uno-16-8" pointList="-792,-176,-792,-172,-672,-172" />
+
+<item itemtype="Connector" uid="connector-19" startpinid="SR04-17-trigpin" endpinid="Uno-16-9" pointList="-800,-176,-800,-164,-672,-164" />
+
+<item itemtype="Connector" uid="Connector-21" startpinid="Voltage Source-20-outPin" endpinid="SR04-17-inpin" pointList="-972,-212,-928,-212,-928,-248,-888,-248" />
+
+</circuit>
