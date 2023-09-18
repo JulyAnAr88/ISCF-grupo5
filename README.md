@@ -37,7 +37,7 @@ agregar mas sensores que trabajan con operación binária como led, cny70, bumpe
 
 #### Diagramas 📈
 
-Diagrama de bloques 
+Diagrama de bloques
 
 ```
 preview
