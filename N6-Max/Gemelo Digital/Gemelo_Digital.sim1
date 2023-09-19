@@ -1,17 +1,91 @@
 <circuit version="1.0.0-SR0" rev="1320" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
 
-<item itemtype="Subcircuit" CircId="Uno-16" mainComp="false" Show_id="true" Show_Val="false" Pos="-680,-260" rotation="0" hflip="1" vflip="1" label="Uno-16" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
+<item itemtype="Subcircuit" CircId="Uno-16" mainComp="false" Show_id="true" Show_Val="false" Pos="-688,-224" rotation="0" hflip="1" vflip="1" label="Uno-16" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
 <mainCompProps itemtype="MCU" CircId="16_mega328-109" mainComp="true" Show_id="false" Show_Val="false" Pos="20,20" rotation="0" hflip="1" vflip="1" label="16_mega328-109" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="16 MHz" Program="sketch_sep17a/build/arduino.avr.uno/sketch_sep17a.ino.with_bootloader.hex" Auto_Load="false" Rst_enabled="true" Ext_Osc="true" Wdt_enabled="false" />
 </item>
 
-<item itemtype="SR04" CircId="SR04-17" mainComp="false" Show_id="false" Show_Val="false" Pos="-800,-224" rotation="0" hflip="1" vflip="1" label="SR04-17" idLabPos="-16,-48" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+<item itemtype="SR04" CircId="SR04-17" mainComp="false" Show_id="false" Show_Val="false" Pos="-844,-328" rotation="0" hflip="1" vflip="1" label="SR04-17" idLabPos="-16,-48" labelrot="0" valLabPos="-16,20" valLabRot="0" />
 
-<item itemtype="Voltage Source" CircId="Voltage Source-20" mainComp="false" ShowProp="MaxValue" Show_id="false" Show_Val="true" Pos="-1000,-228" rotation="0" hflip="1" vflip="1" label="Voltage Source-20" idLabPos="-32,-48" labelrot="0" valLabPos="-8,30" valLabRot="0" Running="true" Value_Volt="5 V" MaxValue="5 V" />
+<item itemtype="Voltage Source" CircId="Voltage Source-20" mainComp="false" ShowProp="MaxValue" Show_id="false" Show_Val="true" Pos="-1000,-228" rotation="0" hflip="1" vflip="1" label="Voltage Source-20" idLabPos="-32,-48" labelrot="0" valLabPos="-8,30" valLabRot="0" Running="true" Value_Volt="1.375 V" MaxValue="5 V" />
 
-<item itemtype="Connector" uid="connector-23" startpinid="Voltage Source-20-outPin" endpinid="SR04-17-inpin" pointList="-972,-212,-928,-212,-928,-248,-888,-248" />
+<item itemtype="Subcircuit" CircId="L298P-24" mainComp="false" Show_id="true" Show_Val="false" Pos="-652,48" rotation="0" hflip="1" vflip="1" label="L298P-24" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="true" />
 
-<item itemtype="Connector" uid="Connector-28" startpinid="SR04-17-trigpin" endpinid="Uno-16-13" pointList="-800,-176,-800,-132,-672,-132" />
+<item itemtype="DcMotor" CircId="DcMotor-27" mainComp="false" Show_id="true" Show_Val="false" Pos="-432,196" rotation="0" hflip="1" vflip="1" label="DcMotor-2" idLabPos="-24,-54" labelrot="0" valLabPos="-14,36" valLabRot="0" RPM_Nominal="256 _RPM" Volt_Nominal="12 V" Resistance="100 Ω" />
 
-<item itemtype="Connector" uid="Connector-29" startpinid="SR04-17-outpin" endpinid="Uno-16-12" pointList="-792,-176,-792,-140,-672,-140" />
+<item itemtype="DcMotor" CircId="DcMotor-29" mainComp="false" Show_id="true" Show_Val="false" Pos="-436,104" rotation="0" hflip="1" vflip="1" label="DcMotor-1" idLabPos="-21,-61" labelrot="0" valLabPos="-14,36" valLabRot="0" RPM_Nominal="256 _RPM" Volt_Nominal="12 V" Resistance="100 Ω" />
+
+<item itemtype="Capacitor" CircId="Capacitor-59" mainComp="false" ShowProp="Capacitance" Show_id="false" Show_Val="true" Pos="-588,160" rotation="270" hflip="1" vflip="1" label="Capacitor-59" idLabPos="-16,-24" labelrot="0" valLabPos="-16,7" valLabRot="0" Capacitance="100 nF" Resistance="1e-06 Ω" InitVolt="0 V" AutoStep="0 _Pasos" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-60" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="-548,180" rotation="270" hflip="1" vflip="1" label="Fixed Voltage-60" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Voltage="12 V" />
+
+<item itemtype="Ground" CircId="Ground-65" mainComp="false" Show_id="false" Show_Val="false" Pos="-588,212" rotation="0" hflip="1" vflip="1" label="Ground-65" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Switch" CircId="Switch-149" mainComp="false" Show_id="true" Show_Val="false" Pos="-756,-192" rotation="0" hflip="1" vflip="1" label="Inversion de Giro" idLabPos="-58.1767,-34.427" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Polos" />
+
+<item itemtype="Resistor" CircId="Resistor-152" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-728,-312" rotation="270" hflip="1" vflip="1" label="Resistor-152" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="1 kΩ" />
+
+<item itemtype="Ground" CircId="Ground-155" mainComp="false" Show_id="false" Show_Val="false" Pos="-680,-288" rotation="0" hflip="1" vflip="1" label="Ground-155" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Node" CircId="Node-63" mainComp="false" Pos="-588,96" />
+
+<item itemtype="Node" CircId="Node-71" mainComp="false" Pos="-592,56" />
+
+<item itemtype="Node" CircId="Node-74" mainComp="false" Pos="-532,64" />
+
+<item itemtype="Node" CircId="Node-134" mainComp="false" Pos="-588,188" />
+
+<item itemtype="Node" CircId="Node-137" mainComp="false" Pos="-604,112" />
+
+<item itemtype="Node" CircId="Node-157" mainComp="false" Pos="-728,-200" />
+
+<item itemtype="Connector" uid="connector-111" startpinid="Voltage Source-20-outPin" endpinid="SR04-17-inpin" pointList="-972,-212,-960,-212,-960,-352,-932,-352" />
+
+<item itemtype="Connector" uid="connector-112" startpinid="L298P-24-OUT1" endpinid="Node-71-0" pointList="-612,56,-592,56" />
+
+<item itemtype="Connector" uid="connector-113" startpinid="L298P-24-OUT2" endpinid="Node-74-0" pointList="-612,64,-532,64" />
+
+<item itemtype="Connector" uid="connector-114" startpinid="L298P-24-Vs" endpinid="Node-63-0" pointList="-612,96,-588,96" />
+
+<item itemtype="Connector" uid="connector-115" startpinid="Capacitor-59-rPin" endpinid="Node-63-1" pointList="-588,144,-588,96" />
+
+<item itemtype="Connector" uid="connector-116" startpinid="Node-63-2" endpinid="Fixed Voltage-60-outnod" pointList="-588,96,-548,96,-548,164" />
+
+<item itemtype="Connector" uid="connector-119" startpinid="Node-71-1" endpinid="DcMotor-27-lPin" pointList="-592,56,-592,72,-504,72,-504,196,-472,196" />
+
+<item itemtype="Connector" uid="connector-121" startpinid="Node-74-1" endpinid="DcMotor-27-rPin" pointList="-532,64,-532,156,-368,156,-368,196,-392,196" />
+
+<item itemtype="Connector" uid="connector-122" startpinid="Uno-16-12" endpinid="L298P-24-IN1" pointList="-680,-104,-700,-104,-700,56,-660,56" />
+
+<item itemtype="Connector" uid="connector-123" startpinid="Uno-16-13" endpinid="L298P-24-IN2" pointList="-680,-96,-712,-96,-712,64,-660,64" />
+
+<item itemtype="Connector" uid="connector-124" startpinid="SR04-17-outpin" endpinid="Uno-16-7" pointList="-836,-280,-836,-152,-680,-152" />
+
+<item itemtype="Connector" uid="connector-125" startpinid="SR04-17-trigpin" endpinid="Uno-16-8" pointList="-844,-280,-844,-136,-680,-136" />
+
+<item itemtype="Connector" uid="connector-117" startpinid="Capacitor-59-lPin" endpinid="Node-134-0" pointList="-588,176,-588,188" />
+
+<item itemtype="Connector" uid="Connector-133" startpinid="L298P-24-SenA" endpinid="Node-137-0" pointList="-612,104,-604,104,-604,112" />
+
+<item itemtype="Connector" uid="Connector-135" startpinid="Node-134-2" endpinid="Ground-65-Gnd" pointList="-588,188,-588,196" />
+
+<item itemtype="Connector" uid="Connector-136" startpinid="L298P-24-SenB" endpinid="Node-137-1" pointList="-612,112,-604,112" />
+
+<item itemtype="Connector" uid="Connector-138" startpinid="Node-137-2" endpinid="Node-134-1" pointList="-604,112,-604,188,-588,188" />
+
+<item itemtype="Connector" uid="Connector-139" startpinid="L298P-24-EnA" endpinid="Uno-16-5" pointList="-660,96,-728,96,-728,-168,-680,-168" />
+
+<item itemtype="Connector" uid="connector-118" startpinid="Node-71-2" endpinid="DcMotor-29-lPin" pointList="-592,56,-492,56,-492,104,-476,104" />
+
+<item itemtype="Connector" uid="connector-120" startpinid="Node-74-2" endpinid="DcMotor-29-rPin" pointList="-532,64,-364,64,-364,104,-396,104" />
+
+<item itemtype="Connector" uid="Connector-150" startpinid="Uno-16-5V0" endpinid="Switch-149-pinP0" pointList="-536,-128,-504,-128,-504,-268,-820,-268,-820,-192,-772,-192" />
+
+<item itemtype="Connector" uid="Connector-153" startpinid="Switch-149-switch0pinN" endpinid="Node-157-0" pointList="-740,-192,-728,-192,-728,-200" />
+
+<item itemtype="Connector" uid="Connector-156" startpinid="Resistor-152-rPin" endpinid="Ground-155-Gnd" pointList="-728,-328,-680,-328,-680,-304" />
+
+<item itemtype="Connector" uid="Connector-158" startpinid="Node-157-2" endpinid="Resistor-152-lPin" pointList="-728,-200,-728,-296" />
+
+<item itemtype="Connector" uid="Connector-159" startpinid="Node-157-1" endpinid="Uno-16-2" pointList="-728,-200,-728,-192,-680,-192" />
 
 </circuit>
