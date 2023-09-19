@@ -21,7 +21,7 @@ A continuación, detallamos el contenido de cada proyecto, los cuales se irán a
    │   │   └── Armá y programá tu robot.pdf
    │   └── Gemelo digital
    │       ├── sketch_sep17a
-   │       │   └── ...
+   │       │   └── ..
    │       └── Gemelo_Digital.sim1
 	├── Banner-principal-2.jpg
 	├── LICENSE
