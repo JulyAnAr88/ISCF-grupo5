@@ -12,20 +12,20 @@ A continuación, detallamos el contenido de cada proyecto, los cuales se irán a
 
 ## Estructura 📂
 ```
-	Repositorio-Grupo-5/
-	├── 1.N6-Max
-	│   ├── Diagramas
-	│   │   └── diagrama de flujo.jpeg
-	│   ├── Documentación
-   │   │   ├── Robot-N6-Max.pdf
-   │   │   └── Armá y programá tu robot.pdf
-   │   └── Gemelo digital
-   │       ├── sketch_sep17a
-   │       │   └── ..
-   │       └── Gemelo_Digital.sim1
-	├── Banner-principal-2.jpg
-	├── LICENSE
-	└── README.md
+Repositorio-Grupo-5/
+├── 1.N6-Max
+│   ├── Diagramas
+│   │   └── diagrama de flujo.jpeg
+│   ├── Documentación
+│   │   ├── Robot-N6-Max.pdf
+│   │   └── Armá y programá tu robot.pdf
+│   └── Gemelo digital
+│       ├── sketch_sep17a
+│       │   └── ..
+│       └── Gemelo_Digital.sim1
+├── Banner-principal-2.jpg
+├── LICENSE
+└── README.md
 ```
 ### 1. N6-Max 🚙
 
