@@ -11,7 +11,7 @@ El siguiente repositorio fue creado a los fines de organizar y disponer de maner
 A continuación, detallamos el contenido de cada proyecto, los cuales se irán actualizando a lo largo del avance en la materia.
 
 ## Estructura 📂
-
+```
 	Repositorio-Grupo-5/
 	├── 1.N6-Max
 	│   ├── Diagramas
@@ -26,7 +26,7 @@ A continuación, detallamos el contenido de cada proyecto, los cuales se irán a
 	├── Banner-principal-2.jpg
 	├── LICENSE
 	└── README.md
-
+```
 ### 1. N6-Max 🚙
 
 El Múltiplo N6 es un robot desarrollado y lanzado al mercado por la empresa de robótica educativa RobotGroup. Es un robot muy fácil de utilizar y que, a su vez cuenta con una gran capacidad de expansión. Esto lo convierte en ideal, tanto para dar los primeros pasos en robótica, como para ser utilizado como plataforma educativa y de investigación.
