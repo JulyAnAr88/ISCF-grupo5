@@ -17,10 +17,12 @@ A continuación, detallamos el contenido de cada proyecto, los cuales se irán a
 	│   ├── Diagramas
 	│   │   └── diagrama de flujo.jpeg
 	│   ├── Documentación
-    │   │   ├── Robot-N6-Max.pdf
-    │   │   └── Armá y programá tu robot.pdf
-    │   └── Gemelo digital
-    │       └──
+   │   │   ├── Robot-N6-Max.pdf
+   │   │   └── Armá y programá tu robot.pdf
+   │   └── Gemelo digital
+   │       ├── sketch_sep17a
+   │       │   └── ...
+   │       └── Gemelo_Digital.sim1
 	├── Banner-principal-2.jpg
 	├── LICENSE
 	└── README.md
