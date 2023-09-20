@@ -45,20 +45,16 @@ agregar mas sensores que trabajan con operación binária como led, cny70, bumpe
 
 Diagrama de bloques
 
-
 <p align="center">
    <img src="/N6-Max/Diagramas/Diagrama de Bloques.drawio.png">
    </p>
 
 
-
 Diagrama de flujo
-
 
 <p align="center">
    <img src="/N6-Max/Diagramas/Diagrama de Flujo.drawio.png">
    </p>
-
 
 #### Documentación 📋 
 
@@ -76,11 +72,9 @@ Tutorial para el uso de los productos de robótica educativa de Robotgroup desar
 
 Desarrollo del gemelo digital
 
-```
 <p align="center">
    <img src="/N6-Max/Gemelo digital/gemelo_preview.png">
    </p>
-```
 
 #### Herramientas utilizadas 🛠️
 
