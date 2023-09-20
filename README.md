@@ -73,7 +73,7 @@ Tutorial para el uso de los productos de robótica educativa de Robotgroup desar
 Desarrollo del gemelo digital
 
 <p align="center">
-   <img src="/N6-Max/Gemelo digital/gemelo_preview.png">
+   <img src="/N6-Max/Gemelo%20digital/gemelo_preview.png">
 </p>
 
 #### Herramientas utilizadas 🛠️
