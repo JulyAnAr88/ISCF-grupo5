@@ -15,14 +15,18 @@ A continuación, detallamos el contenido de cada proyecto, los cuales se irán a
 Repositorio-Grupo-5/
 ├── 1.N6-Max
 │   ├── Diagramas
-│   │   └── diagrama de flujo.jpeg
+│   │   ├── Diagrama de Flujo.drawio.png
+│   │   └── Diagrama de Bloques.drawio.png
 │   ├── Documentación
-│   │   ├── Robot-N6-Max.pdf
-│   │   └── Armá y programá tu robot.pdf
-│   └── Gemelo digital
-│       ├── sketch_sep17a
-│       │   └── ..
-│       └── Gemelo_Digital.sim1
+│   │   ├── Armá y programá tu robot.pdf
+│   │   ├── HC-SR04.pdf
+│   │   ├── L298.pdf
+│   │   └── Robot-N6-Max.pdf
+│   ├── Gemelo digital
+│   │    ├── sketch_sep17a
+│   │    │   └── ..
+│   │    └── Gemelo_Digital.sim1
+│   └── Informe Trabajo Práctico nro 3 - Grupo 5.pdf
 ├── Banner-principal-2.jpg
 ├── LICENSE
 └── README.md
@@ -41,15 +45,20 @@ agregar mas sensores que trabajan con operación binária como led, cny70, bumpe
 
 Diagrama de bloques
 
-```
-preview
-```
+
+<p align="center">
+   <img src="/N6-Max/Diagramas/Diagrama de Bloques.drawio.png">
+   </p>
+
+
 
 Diagrama de flujo
 
-```
-preview
-```
+
+<p align="center">
+   <img src="/N6-Max/Diagramas/Diagrama de Flujo.drawio.png">
+   </p>
+
 
 #### Documentación 📋 
 
@@ -59,18 +68,25 @@ Documento oficial con últimas características y especificaciones técnicas.
 * [Armá y programá tu robot](/N6-Max/Documentación/Armá%20y%20programá%20tu%20robot.pdf): 
 Tutorial para el uso de los productos de robótica educativa de Robotgroup desarrollado por el Ministerio de Educación de la Nación para los programas _Inclusión digital educativa_, _Conectar igualdad_ y _Primaria digital_
 
+* [HC-SR04](/N6-Max/Documentación/HC-SR04.PDF):
+
+* [L298](/N6-Max/Documentación/L298.PDF): 
+
 #### Gemelo digital 👯
 
 Desarrollo del gemelo digital
 
 ```
-preview
+<p align="center">
+   <img src="/N6-Max/Gemelo digital/gemelo_preview.png">
+   </p>
 ```
 
 #### Herramientas utilizadas 🛠️
 
 * [SimulIDE](https://www.simulide.com/p/home.html) -  Real time electronic circuit simulator.
 * [draw.io](https://app.diagrams.net/) - Software de dibujo gráfico multiplataforma
+* [Arduino IDE](https://www.arduino.cc/en/software) - IDE oficial Arduino
 
 ## Autores ✒️
 
