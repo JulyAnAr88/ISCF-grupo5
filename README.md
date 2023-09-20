@@ -64,17 +64,17 @@ Documento oficial con últimas características y especificaciones técnicas.
 * [Armá y programá tu robot](/N6-Max/Documentación/Armá%20y%20programá%20tu%20robot.pdf): 
 Tutorial para el uso de los productos de robótica educativa de Robotgroup desarrollado por el Ministerio de Educación de la Nación para los programas _Inclusión digital educativa_, _Conectar igualdad_ y _Primaria digital_
 
-* [HC-SR04](/N6-Max/Documentación/HC-SR04.PDF):
+* [HC-SR04](/N6-Max/Documentación/HC-SR04.PDF): Data sheet ultrasonic sensor
 
-* [L298](/N6-Max/Documentación/L298.PDF): 
+* [L298](/N6-Max/Documentación/L298.PDF): Data sheet L298 H Bridge
 
 #### Gemelo digital 👯
 
 Desarrollo del gemelo digital
 
 <p align="center">
-   <img src="/N6-Max/Gemelo Digital/gemelo_preview.png">
-   </p>
+   <img src="/N6-Max/Gemelo digital/gemelo_preview.png">
+</p>
 
 #### Herramientas utilizadas 🛠️
 
